@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "serial.o" "gpio.o" --strict --scatter "GPIO.sct" 
+--verbose --list=err.txt --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\GPIO.map" -o "GPIO.axf"
